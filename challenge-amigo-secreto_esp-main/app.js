@@ -41,7 +41,7 @@ const sortearAmigos = () => {
         } while (amigosSorteados[indiceSorteado] === amigoActual || amigosSorteados[indiceSorteado] === null);
         
         resultados[amigoActual] = amigosSorteados[indiceSorteado];
-        amigosSorteados[indiceSorteado] = null; // Marca al amigo como ya asignado
+        amigosSorteados[indiceSorteado] = null; 
     }
     
     mostrarResultados(resultados);
